@@ -1,0 +1,10 @@
+body {background-color:goldenrod; font-family: arial ,sans-serif; font-size:19px;font-style:normal;}
+h1 { font-size:50px;font-family:times , arial; border:10px outset black ;color:black;text-align:center; width:100%; position: fixed;background-color:goldenrod; opacity:0.8;}
+
+h3 ,h2 {border-bottom: 2px inset black ;font-family:monospace,arial,sans-serif;color:goldenrod;font-style:normal;background-color:black;}
+a:hover,a:active,a:focus {background-color:brown;color:black;}
+#castle {border:10px outset black;}
+h3 {font-size:27px;}
+.imgs {border: 5px ridge black}
+
+
