@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    background-color: whitesmoke;} 
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+@media only screen and (max-width: 375px) 
+    /* For mobile phones: */{
+   
+        li:nth-child(1)  {
+            width: 100%;
+}
+
+        li:nth-child(n+2)  {
+            width: 50%;
+            padding: 2%;
+}  
+       
+    .grid-item {float: left;}
+  
+    #grid-flex{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around
+        }
+}
+    
+@media only screen and (min-width: 768px) 
+    /* For tablets: */
+    
+{   
+       #grid-floats li:nth-child(-n+2) {
+           width: 48%;
+           display: inline-block;           
+           }
+       #grid-floats li:nth-child(n+3) {
+           display: inline-block;
+           vertical-align: top;
+           width: 30%;
+           padding: 2px;
+           margin: 2px;
+
+       }
+       
+       #grid-flex li:nth-child(-n+2)  {
+           width: 90%;
+       }
+       #grid-flex li:nth-child(-n+2) {
+           width: 48%;
+       }
+       #grid-flex li:nth-child(n+3)  {
+           width: 90%
+       }
+       #grid-flex li:nth-child(n+3) {
+           width: 30%;
+       }
+       #grid-flex {
+           list-style: none;
+           display: flex;
+           flex-flow: row wrap;
+           justify-content: space-between;
+       }
+   }
+    
+@media only screen and (min-width: 992px) 
+    /* For desktop: */
+{
+ #grid-floats li {display: inline-block;}
+       
+    #grid-floats li:nth-child(1) {
+           width: 46%;
+       }
+       #grid-floats li:nth-child(1) img {
+           width: 48%;
+       }
+       #grid-floats li:nth-child(n+2) {
+           width: 23%;
+       }
+       #grid-floats li:nth-child(n+2) img {
+           width: 95%;
+       }
+       
+       #grid-flex .grid-item:nth-child(1) img {
+           width: 48%
+       }
+       #grid-flex .grid-item:nth-child(1) {
+           width: 48%
+       }
+       #grid-flex .grid-item:nth-child(n+2) img {
+           width: 95%;
+       }
+       #grid-flex .grid-item:nth-child(n+2) {
+           width: 24%;
+       }
+    li{
+        border: 5px solid black;
+        margin: 1%;
+        }
+       #grid-flex {
+           display: ;
+           flex-flow: row wrap;
+           justify-content: space-between;
+           
+       }
+
+   }
+ 
+        
+        
+    
